@@ -50,7 +50,7 @@ function startQuiz(questions) {
         if (correctAnswer == enteredAnswer) {
             points += 10;
         }
-
     }
+    
     return points;
 }
